@@ -31,7 +31,7 @@ section.section.servicios-seccion {
 }
 
 @media (max-width: 1000px) {
-    .esquinero {
+    .logo-black.esquinero {
         display: none;
     }
 }
