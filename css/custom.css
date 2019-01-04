@@ -1,1 +1,42 @@
 /* Add here all your CSS customizations */
+
+video {
+	filter: opacity(30%);
+}
+
+section.section.servicios-seccion {
+	background: white;
+}
+
+.logo-white {
+	display: block;
+}
+
+.logo-black {
+	display: none;
+}
+
+.sticky-header-active .logo-white {	
+	display: none;
+}
+
+.sticky-header-active .logo-black {	
+	display: block;
+}
+
+@media (max-width: 500px) {
+	.tp-caption.desktop-only {
+		display: none;
+	}
+}
+
+@media (max-width: 1000px) {
+    .esquinero {
+        display: none;
+    }
+}
+
+.esquinero {
+    width: 100px;
+    position: fixed;
+}
