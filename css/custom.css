@@ -36,7 +36,27 @@ section.section.servicios-seccion {
     }
 }
 
+.servicios-html .header-body {
+	background-color: #171717 !important;
+}
+
+.servicios-spacing {
+	margin-top: 100px;
+}
+
 .esquinero {
     width: 100px;
     position: fixed;
+}
+
+.team-container {
+	justify-content: center;
+}
+
+.servicios-header {
+	margin-top: 70px;
+}
+
+.heading-primary {
+	margin: 15px 0;
 }
