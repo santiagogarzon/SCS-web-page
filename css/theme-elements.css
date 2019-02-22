@@ -9263,5 +9263,7 @@ ul.history li .featured-box .box-content {
 
 /* Google Map */
 .google-map-footer {
-	margin: 35px 0 -50px !important;
+	min-height: 150px !important;
+	height: 300px !important;
+	margin: 10px 0 -50px !important;
 }
