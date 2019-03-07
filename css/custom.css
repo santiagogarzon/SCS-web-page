@@ -86,3 +86,7 @@ section.section.servicios-seccion {
 .tp-bgimg.defaultimg {
 	opacity: 0.35 !important;
 } 
+
+.scroll-to-top {
+	visibility: hidden !important;
+}

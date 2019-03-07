@@ -366,6 +366,7 @@
 										<div class="col-lg-4 col-sm-4">
 											<img src="img/SCS-Images/M.A.CV.png" class="img-fluid mb-4" alt="">
 											<ul class="social-icons custom-social-icons text-center">
+												<!--
 												<li class="social-icons-facebook">
 													<a href="http://www.facebook.com/" target="_blank" title="Facebook">
 														<i class="fab fa-facebook-f"></i>
@@ -386,6 +387,7 @@
 														<i class="fab fa-linkedin-in"></i>
 													</a>
 												</li>
+												-->
 											</ul>
 										</div>
 										<div class="col-lg-8 col-sm-8">
@@ -423,6 +425,7 @@
 										<div class="col-lg-4 col-sm-4">
 											<img src="img/SCS-Images/R.L.CV.png" class="img-fluid mb-4" alt="">
 											<ul class="social-icons custom-social-icons text-center">
+												<!--
 												<li class="social-icons-facebook">
 													<a href="http://www.facebook.com/" target="_blank" title="Facebook">
 														<i class="fab fa-facebook-f"></i>
@@ -443,6 +446,7 @@
 														<i class="fab fa-linkedin-in"></i>
 													</a>
 												</li>
+												-->
 											</ul>
 										</div>
 										<div class="col-lg-8 col-sm-8">
@@ -479,6 +483,7 @@
 										<div class="col-lg-4 col-sm-4">
 											<img src="img/SCS-Images/G.S.CV.png" class="img-fluid mb-4" alt="">
 											<ul class="social-icons custom-social-icons text-center">
+												<!--
 												<li class="social-icons-facebook">
 													<a href="http://www.facebook.com/" target="_blank" title="Facebook">
 														<i class="fab fa-facebook-f"></i>
@@ -499,6 +504,7 @@
 														<i class="fab fa-linkedin-in"></i>
 													</a>
 												</li>
+												-->
 											</ul>
 										</div>
 										<div class="col-lg-8 col-sm-8">
@@ -579,7 +585,7 @@
 	
 								<ul class="list list-icons list-icons-style-3 mt-2 mb-2">
 									<li><i class="fas fa-map-marker-alt"></i> <strong>Dirección:</strong> Av. Colon 4551 - Of 201 - Córdoba, Argentina</li>
-									<li><i class="fas fa-phone"></i> <strong>Telefono:</strong> 549 (351) 5707582/83</li>
+									<li><i class="fas fa-phone"></i> <strong>Telefono:</strong> 54 (351) 5707582/83</li>
 									<li><i class="far fa-envelope"></i> <strong>Email:</strong> <a href="mailto:marcelo.almendros@scsargentina.com">marcelo.almendros@scsargentina.com </a></li>
 								</ul>
 	
@@ -593,7 +599,13 @@
 								</ul>
 											
 								<!-- Google Maps - Go to the bottom of the page to change settings and map location. -->
-								<div id="googlemaps" class="google-map google-map-footer"></div>
+								<div class="mapouter">
+									<div class="gmap_canvas">
+										<iframe width="540" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=Av.%20Colon%204551%20-%20C%C3%B3rdoba%2C%20Argentina&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+										</iframe>
+									</div>
+									<style>.mapouter{text-align:right;height:300px;width:540px;}.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:540px;}</style>
+								</div>
 	
 							</div>
 						</div>
@@ -612,7 +624,7 @@
 								<h4>Contactanos</h4>
 								<ul class="contact">
 									<li><p><i class="fas fa-map-marker-alt"></i> <strong>Dirección:</strong> Av. Colon 4551 - Of 201 - Córdoba, Argentina</p></li>
-									<li><p><i class="fas fa-phone"></i> <strong>Telefono:</strong> 549 (351) 5707582/83</p></li>
+									<li><p><i class="fas fa-phone"></i> <strong>Telefono:</strong> 54 (351) 5707582/83</p></li>
 									<li><p><i class="fas fa-phone"></i> <strong>Celular:</strong> 549 (351) 2288214</p></li>
 									<li><p><i class="far fa-envelope"></i> <strong>Email:</strong> <a href="mailto:mail@example.com">marcelo.almendros@scsargentina.com</a></p></li>
 								</ul>
@@ -755,6 +767,25 @@
 			mapRef.setMapTypeId('map_style');
 
 		</script>
+
+		<!-- WhatsHelp.io widget -->
+		<script type="text/javascript">
+			(function () {
+				var options = {
+					whatsapp: "+549 (351) 2288214", // WhatsApp number
+					call: "+549 (351) 2288214", // Call phone number
+					call_to_action: "Contactanos", // Call to action
+					button_color: "#C5341B", // Color of button
+					position: "right", // Position may be 'right' or 'left'
+					order: "whatsapp,call", // Order of buttons
+				};
+				var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+				var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+				s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+				var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+			})();
+		</script>
+		<!-- /WhatsHelp.io widget -->
 
 		<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
 		<script>

@@ -145,15 +145,19 @@
 					<h2>Sobre<strong> Nosotros</strong></h2>
 
 					<div class="row align-items-center">
-						<div class="col-lg-12">
+						<div class="col-lg-6">
 							<img src="img/SCS-Images/1-Equipo SCS.jpg" class="nosotros-image"></img>
 						</div>
-						<div class="col-lg-12">
+						<div class="col-lg-6">
 							<p class="lead nosotros-text">
 									Somos un equipo de profesionales con gran experiencia por haber trabajado en y asesorado a empresas multinacionales. Tenemos fuerte orientación a la detección de las necesidades del cliente, y con la convicción cada nuevo día el mejor soporte y consejo a nuestros clientes, en la búsqueda de que logren la eficientización de sus resultados, el aprovechamiento de las oportunidades de negocio y la administración de riesgos.
+							</p>						
 							<p class="lead nosotros-text">	
 									Para ello nos reunimos, y formamos Shared Corporate Services S.A. (SCS), una consultora dedicada a brindar servicios y soporte de valor agregado a sus clientes.
-							</p><p class="lead nosotros-text">
+							</p>
+						</div>
+						<div class="col-lg-12">	
+								<p class="lead nosotros-text">
 									Nuestro foco y principal interés está orientado en conseguir la satisfacción del cliente, que pueda verificar nuestro compromiso y entrega, y demostrar que nuestra profesionalidad y dedicación de “cercana”, codo a codo, es la mejor elección que pueden hacer, y lo demostramos con resultados y logros concretos. 
 								</p><p class="lead nosotros-text">		
 									Para ello, es primordial lograr la confianza de nuestros clientes y resolver problemas importantes, basado en los valores que son nuestros pilares: actuar con integridad, trabajar juntos, reimaginarnos lo posible y nos interesamos en hacer la diferencia. 
@@ -291,6 +295,25 @@
 			mapRef.setMapTypeId('map_style');
 
 		</script>
+
+		<!-- WhatsHelp.io widget -->
+		<script type="text/javascript">
+			(function () {
+				var options = {
+					whatsapp: "+549 (351) 2288214", // WhatsApp number
+					call: "+549 (351) 2288214", // Call phone number
+					call_to_action: "Contactanos", // Call to action
+					button_color: "#C5341B", // Color of button
+					position: "right", // Position may be 'right' or 'left'
+					order: "whatsapp,call", // Order of buttons
+				};
+				var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+				var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+				s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+				var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+			})();
+		</script>
+		<!-- /WhatsHelp.io widget -->
 
 		<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
 		<script>
