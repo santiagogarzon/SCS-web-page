@@ -82,3 +82,7 @@ section.section.servicios-seccion {
 .end-page {
 	margin-bottom: 50px;
 }
+
+.tp-bgimg.defaultimg {
+	opacity: 0.35 !important;
+} 
