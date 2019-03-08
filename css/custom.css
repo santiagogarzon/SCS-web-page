@@ -99,14 +99,23 @@ section.section.servicios-seccion {
 		height: 25px;
 		z-index: 10000000;
 	}
+
+	.tp-caption.mobile-only {
+		display: none;
+	}
 }
 
 @media (max-width: 500px) {
 	.language {
 		position: fixed;
-		right: 29px;
-		bottom: 80px;
+		right: 40px;
+		bottom: 15px;
 		height: 30px;
 		z-index: 10000000;
+	}
+
+	#gmap_canvas, 
+	.gmap_canvas {
+		width: 330px !important;
 	}
 }
