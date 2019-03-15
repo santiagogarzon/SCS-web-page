@@ -119,6 +119,9 @@ body .tparrows:hover {
 }
 
 @media (max-width: 500px) {
+	.img-fluid {
+		width: 90px !important;
+	}
 	.language {
 		position: fixed;
 		right: 40px;
