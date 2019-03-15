@@ -119,7 +119,7 @@ body .tparrows:hover {
 }
 
 @media (max-width: 500px) {
-	.img-fluid {
+	.scs-footer-logo {
 		width: 90px !important;
 	}
 	.language {
