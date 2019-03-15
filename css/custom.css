@@ -105,6 +105,19 @@ section.section.servicios-seccion {
 	}
 }
 
+body .tparrows {
+    background: transparent !important;
+}
+
+body .tparrows:before {
+    font-size: 50px !important;
+    color: #c5341b !important;
+}
+
+body .tparrows:hover {
+    color:#c5341b !important;
+}
+
 @media (max-width: 500px) {
 	.language {
 		position: fixed;
@@ -118,4 +131,10 @@ section.section.servicios-seccion {
 	.gmap_canvas {
 		width: 330px !important;
 	}
+
+	body .tparrows {
+		background: transparent !important;
+		display: none;
+	}
 }
+
