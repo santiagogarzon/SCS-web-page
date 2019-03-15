@@ -103,6 +103,10 @@ section.section.servicios-seccion {
 	.tp-caption.mobile-only {
 		display: none;
 	}
+
+	#footer .footer-copyright p {
+		padding: 10px !important;
+	}
 }
 
 body .tparrows {
@@ -122,6 +126,7 @@ body .tparrows:hover {
 	.scs-footer-logo {
 		width: 90px !important;
 	}
+
 	.language {
 		position: fixed;
 		right: 40px;
@@ -141,3 +146,6 @@ body .tparrows:hover {
 	}
 }
 
+#footer .footer-copyright {
+	margin-top: 0; 
+}
