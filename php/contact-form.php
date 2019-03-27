@@ -13,7 +13,7 @@ header('Content-type: application/json');
 require_once('php-mailer/PHPMailerAutoload.php');
 
 // Step 1 - Enter your email address below.
-$email = 'santiagogarzon04@gmail.com';
+$email = 'contacto@scsargentina.com';
 //contacto@scsargentina.com
 // If the e-mail is not working, change the debug option to 2 | $debug = 2;
 $debug = 0;
