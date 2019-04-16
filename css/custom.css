@@ -149,3 +149,38 @@ body .tparrows:hover {
 #footer .footer-copyright {
 	margin-top: 0; 
 }
+
+
+@media (min-width: 500px) {
+	.home-intro p em {
+		color: #ffffff;
+	}
+
+	.home-intro {
+		overflow: hidden;
+		position: absolute;
+		text-align: left;
+		bottom: 0;
+		width: 100%;
+		margin-bottom: 25px;
+		background-color: transparent;
+		padding: 0;
+	}
+
+	.home-intro p span {
+		color: white;
+	}
+
+	.home-intro .get-started a:not(.btn) {
+		color: white;
+		margin-left: 3px;
+	}
+
+	.home-intro .learn-more {
+		color: white;
+	}
+
+	.container.intro {
+		margin-top: 80px;
+	}
+}
